@@ -18,7 +18,7 @@ jobs:
           node-version: "20"
 
       - name: Pull Request Code Review Bot
-        uses: kakaotech-25/Hackerton-PR-Review@v1
+        uses: kakaotech-25/Hackathon-PR-Review@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           api-key: ${{secrets.ANTHROPIC_API_KEY}}
